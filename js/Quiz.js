@@ -53,6 +53,11 @@ class Quiz {
 //verifique se a condição para a resposta dos jogadores e a resposta correta são iguais
 //se for igual preencha com verde
 //se não preencha com vermelho
+   if(allContestants[plr].answer == correctAns){
+    fill("green");
+   } else {
+    fill("red");
+   }
         
 
         display_Answers+=30;
